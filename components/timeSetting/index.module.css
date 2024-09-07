@@ -1,0 +1,129 @@
+.watch {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    position: relative;
+}
+
+.hand {
+    width: .125rem;
+    height: 4rem;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    bottom: 50%;
+    -webkit-transform-origin: 50% 4rem;
+    transform-origin: 50% 4rem;
+}
+
+.hour {
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 1.1rem;
+    -webkit-transform-origin: 50% 4.8rem;
+    transform-origin: 50% 4.8rem;
+    font-size: .75rem;
+}
+
+.hour.one {
+    transform: translate(-50%, -50%) rotate(30deg);
+}
+
+.hour.one span {
+    transform: rotate(-30deg);
+}
+
+.hour.two {
+    transform: translate(-50%, -50%) rotate(60deg);
+}
+
+.hour.two span {
+    transform: rotate(-60deg);
+}
+
+.hour.three {
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.hour.three span {
+    transform: rotate(-90deg);
+}
+
+.hour.four {
+    transform: translate(-50%, -50%) rotate(120deg);
+}
+
+.hour.four span {
+    transform: rotate(-120deg);
+}
+
+.hour.five {
+    transform: translate(-50%, -50%) rotate(150deg);
+}
+
+.hour.five span {
+    transform: rotate(-150deg);
+}
+
+.hour.six {
+    transform: translate(-50%, -50%) rotate(180deg);
+}
+
+.hour.six span {
+    transform: rotate(-180deg);
+}
+
+.hour.seven {
+    transform: translate(-50%, -50%) rotate(210deg);
+}
+
+.hour.seven span {
+    transform: rotate(-210deg);
+}
+
+.hour.eight {
+    transform: translate(-50%, -50%) rotate(240deg);
+}
+
+.hour.eight span {
+    transform: rotate(-240deg);
+}
+
+.hour.nine {
+    transform: translate(-50%, -50%) rotate(270deg);
+}
+
+.hour.nine span {
+    transform: rotate(-270deg);
+}
+
+.hour.ten {
+    transform: translate(-50%, -50%) rotate(300deg);
+}
+
+.hour.ten span {
+    transform: rotate(-300deg);
+}
+
+.hour.eleven {
+    transform: translate(-50%, -50%) rotate(330deg);
+}
+
+.hour.eleven span {
+    transform: rotate(-330deg);
+}
+
+.hour.twelve {
+    transform: translate(-50%, -50%) rotate(360deg);
+}
+
+.hour.hour.twelve span {
+    transform: rotate(-360deg);
+}
